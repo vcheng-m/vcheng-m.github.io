@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teaching - Vanessa Cheng-Matsuno</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Georgia', 'Times New Roman', serif;
+            background: #FFFFFF;
+            color: #333;
+            line-height: 1.7;
+            font-size: 15px;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 50px 30px;
+        }
+
+        h1 {
+            font-size: 2rem;
+            font-weight: 400;
+            margin-bottom: 0.5rem;
+            color: #1a1a1a;
+            letter-spacing: -0.5px;
+        }
+
+        hr {
+            border: none;
+            border-top: 1px solid #ddd;
+            margin: 2rem 0;
+        }
+
+        nav {
+            margin-bottom: 2.5rem;
+        }
+
+        nav a {
+            color: #0066cc;
+            text-decoration: none;
+            margin-right: 2rem;
+            font-size: 0.9rem;
+            transition: color 0.3s;
+        }
+
+        nav a:hover {
+            color: #004499;
+            text-decoration: underline;
+        }
+
+        h2 {
+            font-size: 1.4rem;
+            font-weight: 400;
+            margin-bottom: 2rem;
+            color: #1a1a1a;
+        }
+
+        .teaching-block {
+            display: grid;
+            grid-template-columns: 160px 1fr;
+            gap: 0 2.5rem;
+            margin-bottom: 2.5rem;
+            padding-bottom: 2.5rem;
+            border-bottom: 1px solid #eee;
+        }
+
+        .teaching-block:last-child {
+            border-bottom: none;
+        }
+
+        .teaching-meta {
+            padding-top: 2px;
+        }
+
+        .teaching-years {
+            font-size: 0.85rem;
+            color: #888;
+            display: block;
+            margin-bottom: 0.2rem;
+        }
+
+        .teaching-role {
+            font-size: 0.85rem;
+            color: #555;
+            font-style: italic;
+        }
+
+        .teaching-content .institution {
+            font-size: 1.05rem;
+            font-weight: 600;
+            color: #1a1a1a;
+            display: block;
+            margin-bottom: 0.6rem;
+        }
+
+        .role-group {
+            margin-bottom: 1.2rem;
+        }
+
+        .role-group:last-child {
+            margin-bottom: 0;
+        }
+
+        .role-label {
+            font-size: 0.9rem;
+            font-style: italic;
+            color: #555;
+            margin-bottom: 0.4rem;
+        }
+
+        .course-list {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        .course-list li {
+            font-size: 0.92rem;
+            color: #444;
+            padding: 0.15rem 0;
+            display: flex;
+            gap: 0.8rem;
+        }
+
+        .course-code {
+            color: #888;
+            font-size: 0.85rem;
+            min-width: 110px;
+            flex-shrink: 0;
+        }
+
+        .eval-link {
+            font-size: 0.85rem;
+            margin-top: 0.4rem;
+        }
+
+        .eval-link a {
+            color: #0066cc;
+            text-decoration: none;
+        }
+
+        .eval-link a:hover {
+            text-decoration: underline;
+        }
+
+        @media (max-width: 768px) {
+            .teaching-block {
+                grid-template-columns: 1fr;
+                gap: 0.4rem;
+            }
+
+            h1 {
+                font-size: 1.75rem;
+            }
+
+            .container {
+                padding: 40px 20px;
+            }
+
+            nav a {
+                display: inline-block;
+                margin-right: 1rem;
+                margin-bottom: 0.5rem;
+            }
+
+            .course-list li {
+                flex-direction: column;
+                gap: 0;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Vanessa Cheng-Matsuno</h1>
+
+        <hr>
+
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="research.html">Research</a>
+            <a href="teaching.html">Teaching</a>
+            <a href="vchengm_cv.pdf" target="_blank">CV</a>
+        </nav>
+
+        <h2>Teaching</h2>
+
+        <div class="teaching-block">
+            <div class="teaching-meta">
+                <span class="teaching-years">2023–present</span>
+                <span class="teaching-role">Lecturer</span>
+            </div>
+            <div class="teaching-content">
+                <span class="institution">University of Southampton</span>
+                <ul class="course-list">
+                    <li><span class="course-code">PAIR3003</span> UG Dissertation in Politics &amp; International Relations</li>
+                    <li><span class="course-code">PAIR2067/3079</span> The Government Lab</li>
+                    <li><span class="course-code">PAIR6043</span> Comparative Public Administration</li>
+                    <li><span class="course-code">PAIR6036</span> Advanced Policy Analysis</li>
+                    <li><span class="course-code">PAIR6071</span> Issues in Contemporary Public Administration</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="teaching-block">
+            <div class="teaching-meta">
+                <span class="teaching-years">2020–2023</span>
+                <span class="teaching-role">Multiple roles</span>
+            </div>
+            <div class="teaching-content">
+                <span class="institution">London School of Economics</span>
+
+                <div class="role-group">
+                    <p class="role-label">Teaching Fellow, School of Public Policy — 2022/2023</p>
+                    <ul class="course-list">
+                        <li><span class="course-code">PP403</span> Public Management</li>
+                    </ul>
+
+                </div>
+
+                <div class="role-group">
+                    <p class="role-label">Head Class Teacher — 2022</p>
+                    <ul class="course-list">
+                        <li><span class="course-code">MN2196</span> Data Analysis for Management Decision Making</li>
+                    </ul>
+                </div>
+
+                <div class="role-group">
+                    <p class="role-label">Graduate Teaching Assistant — 2020/2021</p>
+                    <ul class="course-list">
+                        <li><span class="course-code">GV482</span> Political Science and Political Economy: Current Issues</li>
+                        <li><span class="course-code">GV481</span> Quantitative Methods for Political Science</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="teaching-block">
+            <div class="teaching-meta">
+                <span class="teaching-years">2017–2020</span>
+                <span class="teaching-role">Graduate Teaching Assistant</span>
+            </div>
+            <div class="teaching-content">
+                <span class="institution">King's College London</span>
+                <ul class="course-list">
+                    <li><span class="course-code"></span> Economic Analysis of Emerging Economies — 2020</li>
+                    <li><span class="course-code"></span> Political Sociology of Social Networks — 2019</li>
+                    <li><span class="course-code"></span> Quantitative Methods for Political Science (graduate) — 2019</li>
+                    <li><span class="course-code"></span> Quantitative Methods for Political Science (undergraduate) — 2018</li>
+                    <li><span class="course-code"></span> Comparing Political Systems — 2017–2019</li>
+                </ul>
+            </div>
+        </div>
+
+    </div>
+</body>
+</html>

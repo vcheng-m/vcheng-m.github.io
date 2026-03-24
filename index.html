@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vanessa Cheng-Matsuno</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.9.4/css/academicons.min.css">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Georgia', 'Times New Roman', serif;
+            background: #FFFFFF;
+            color: #333;
+            line-height: 1.7;
+            font-size: 15px;
+        }
+        
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 50px 30px;
+        }
+        
+        h1 {
+            font-size: 2rem;
+            font-weight: 400;
+            margin-bottom: 0.5rem;
+            color: #1a1a1a;
+            letter-spacing: -0.5px;
+        }
+        
+        .subtitle {
+            font-size: 0.95rem;
+            color: #555;
+            margin-bottom: 2rem;
+            line-height: 1.5;
+        }
+        
+        hr {
+            border: none;
+            border-top: 1px solid #ddd;
+            margin: 2rem 0;
+        }
+        
+        nav {
+            margin-bottom: 2.5rem;
+        }
+        
+        nav a {
+            color: #0066cc;
+            text-decoration: none;
+            margin-right: 2rem;
+            font-size: 0.9rem;
+            transition: color 0.3s;
+        }
+        
+        nav a:hover {
+            color: #004499;
+            text-decoration: underline;
+        }
+        
+        .content-grid {
+            display: grid;
+            grid-template-columns: 1fr 2fr;
+            gap: 4rem;
+            margin-top: 2rem;
+        }
+        
+        .bio {
+            font-size: 0.95rem;
+            line-height: 1.7;
+        }
+        
+        .bio p {
+            margin-bottom: 1.2rem;
+        }
+        
+        .bio a {
+            color: #0066cc;
+            text-decoration: none;
+        }
+        
+        .bio a:hover {
+            text-decoration: underline;
+        }
+        
+        .bio strong {
+            font-weight: 600;
+        }
+        
+        .photo-sidebar {
+            display: flex;
+            flex-direction: column;
+            gap: 1.5rem;
+        }
+        
+        .photo-container img {
+            width: 100%;
+            max-width: 250px;
+            height: auto;
+            border: 1px solid #e0e0e0;
+            object-fit: cover;
+            aspect-ratio: 3/4;
+        }
+        
+        .photo-placeholder {
+            width: 100%;
+            max-width: 250px;
+            aspect-ratio: 3/4;
+            background: #f0f0f0;
+            border: 1px solid #e0e0e0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #999;
+            font-size: 0.85rem;
+        }
+        
+        .social-icons {
+            display: flex;
+            gap: 1rem;
+            flex-wrap: wrap;
+        }
+        
+        .social-icons a {
+            width: 38px;
+            height: 38px;
+            border-radius: 50%;
+            background: #f5f5f5;
+            border: 1px solid #ddd;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #0066cc;
+            text-decoration: none;
+            font-size: 1rem;
+            font-weight: 600;
+            transition: all 0.3s;
+        }
+        
+        .social-icons a:hover {
+            background: #0066cc;
+            color: white;
+            border-color: #0066cc;
+        }
+        
+        .links-section {
+            margin-top: 2rem;
+            padding-top: 2rem;
+            border-top: 1px solid #ddd;
+        }
+        
+        .links-section h2 {
+            font-size: 1.2rem;
+            font-weight: 400;
+            margin-bottom: 1rem;
+            color: #1a1a1a;
+        }
+        
+        .contact-info {
+            margin-top: 1rem;
+        }
+        
+        .contact-info p {
+            margin-bottom: 0.5rem;
+            font-size: 0.9rem;
+        }
+        
+        @media (max-width: 768px) {
+            .content-grid {
+                grid-template-columns: 1fr;
+                gap: 2rem;
+            }
+            
+            .photo-sidebar {
+                order: -1;
+            }
+            
+            h1 {
+                font-size: 1.75rem;
+            }
+            
+            .container {
+                padding: 40px 20px;
+            }
+            
+            nav a {
+                display: inline-block;
+                margin-right: 1rem;
+                margin-bottom: 0.5rem;
+            }
+            
+            .bio h2 {
+                font-size: 1.1rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Vanessa Cheng-Matsuno</h1>
+        <p class="subtitle">Lecturer (Assistant Professor) in Public Policy and Administration, University of Southampton</p>
+        
+        <hr>
+        
+        <nav>
+            <a href="#bio">Bio</a>
+            <a href="#contact">Contact</a>
+            <a href="research.html">Research</a>
+            <a href="teaching.html">Teaching</a>
+            <a href="vchengm_cv.pdf" target="_blank">CV</a>
+        </nav>
+        
+        <div class="content-grid">
+            <div class="photo-sidebar">
+                <div class="photo-container">
+                    <img src="images/photo.jpg" alt="Vanessa Cheng-Matsuno">
+                </div>
+                
+                <div class="social-icons">
+                    <a href="https://bsky.app/profile/vchengm.bsky.social" target="_blank" title="BlueSky"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 568 501" width="18" height="18" fill="currentColor"><path d="M123.121 33.664C188.241 82.553 258.281 181.68 284 234.873c25.719-53.192 95.759-152.32 160.879-201.209C491.866-1.611 568-28.906 568 57.947c0 17.346-9.945 145.713-15.778 166.555-20.275 72.453-94.155 90.933-159.875 79.748C507.222 321.42 518.92 372.217 467.858 423c-100.282 103.357-144.006-25.945-155.268-59.101C308.567 349.075 303.349 338.58 284 338.58c-19.348 0-24.567 10.495-28.59 25.319C244.148 397.055 200.424 526.357 100.142 423c-51.062-50.783-39.364-101.58 75.611-118.75-65.72 11.185-139.6-7.295-159.875-79.748C9.945 203.66 0 75.293 0 57.947c0-86.853 76.134-59.558 123.121-24.283z"/></svg></a>
+                    <a href="https://www.linkedin.com/in/vanessachengm/" target="_blank" title="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+                    <a href="https://orcid.org/0000-0003-2625-1812" target="_blank" title="ORCID"><i class="ai ai-orcid"></i></a>
+                    <a href="https://scholar.google.com/citations?user=VUTdDa8AAAAJ&hl=en" target="_blank" title="Google Scholar"><i class="ai ai-google-scholar"></i></a>
+                    <a href="https://osf.io/3u5tk/" title="OSF"><i class="ai ai-osf"></i></a>
+                </div>
+            </div>
+            
+            <div class="bio" id="bio">
+                <h2 style="font-size: 1.2rem; font-weight: 400; margin-bottom: 1rem;">Bio</h2>
+                
+                <p>I'm a Lecturer (Assistant Professor) in Public Policy and Administration at the <a href="https://www.southampton.ac.uk/politics/" target="_blank">Department of Politics and International Relations</a> at the University of Southampton. I received my PhD in Political Science from the London School of Economics and Political Science in 2024.</p>
+                
+                <p>I study the political behaviour of elites, both elected officials and bureaucrats, and how their interactions shape the quality of public policy. Furthermore, I also examine how elite behaviour influences public opinion and citizen evaluations of the state. My doctoral dissertation explored these questions in the context of political crises, showing how uncertainty affects both elite decision-making and voters' preferences. My research focuses primarily on Latin America.</p>
+                
+                <p>Methodologically, I mainly employ experiments and causal inference methods. Beyond elite behaviour, I also study electoral mobilisation and democratic innovations using such approaches.</p>
+                
+                <p>Prior to joining LSE, I completed a Master in Public Administration in International Development from Harvard University and a Bachelor in Economics from Universidad del Pacífico. I have worked as a researcher in governance issues for The World Bank, J-PAL Latin America, the Inter-American Development Bank, and as a civil servant in Peru. Several of my research questions emerged out of my experience as a practitioner of public policy in the Global South.</p>
+                
+                <p>You can find my CV <a href="vchengm_cv.pdf" target="_blank">here</a>.</p>
+            </div>
+        </div>
+        
+        <div class="links-section" id="contact">
+            <h2>Contact</h2>
+            <div class="contact-info">
+                <p><strong>Email:</strong> <a href="mailto:v.cheng-matsuno@soton.ac.uk">v.cheng-matsuno@soton.ac.uk</a></p>
+                <p style="display: flex; gap: 0.4em;"><strong>Department:</strong> <span>Politics and International Relations<br>University of Southampton<br>Highfield Campus, University Road, Southampton, SO17 1BJ</span></p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
